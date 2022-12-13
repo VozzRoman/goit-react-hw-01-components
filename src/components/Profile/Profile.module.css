@@ -1,0 +1,14 @@
+
+.profile {
+    display: block;
+    text-align: center;
+   
+}
+
+.stats {
+display: flex;
+}
+
+.label{
+    display: block;
+}
