@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/VozzRoman/goit-react-hw-01-components/static/css/main.999e76b8.css",
+    "main.css": "/VozzRoman/goit-react-hw-01-components/static/css/main.9d358f96.css",
     "main.js": "/VozzRoman/goit-react-hw-01-components/static/js/main.5015e846.js",
     "index.html": "/VozzRoman/goit-react-hw-01-components/index.html",
-    "main.999e76b8.css.map": "/VozzRoman/goit-react-hw-01-components/static/css/main.999e76b8.css.map",
+    "main.9d358f96.css.map": "/VozzRoman/goit-react-hw-01-components/static/css/main.9d358f96.css.map",
     "main.5015e846.js.map": "/VozzRoman/goit-react-hw-01-components/static/js/main.5015e846.js.map"
   },
   "entrypoints": [
-    "static/css/main.999e76b8.css",
+    "static/css/main.9d358f96.css",
     "static/js/main.5015e846.js"
   ]
 }
