@@ -28,5 +28,10 @@
     "name": "Poly",
     "isOnline": false,
     "id": 1284
+  },  {
+    "avatar": "https://static.wikia.nocookie.net/dccu/images/2/2e/Batman_-_Justice_League_-_promo.jpg",
+    "name": "Batman",
+    "isOnline": true,
+    "id": 1286
   }
 ]

@@ -20,6 +20,7 @@ margin-right: 10px;
 width: 20px;
 height: 20px;
 background-color: ${(props) => {
+	console.log(props);
 	if (props.children === true) {
 		return props.type = 'green';
 	} else {
@@ -35,6 +36,7 @@ export const AvatorPic = styled.img`
 	border: 1px solid gray;
 	border-radius: 4px;
 	margin-right: 20px;
+	height: 50px;
 
 `;
 
