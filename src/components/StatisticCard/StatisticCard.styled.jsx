@@ -15,15 +15,17 @@ display: flex;
 padding: 10px;
 flex-direction: column;
 border: 1px solid gray;
+background-color:${(props) => {
+return props.color;
+}}
 `;
 
 export const Label = styled.span`
 font-size: 19px;
 font-weight: 600;
 margin-bottom: 10px;
-props => {
-    background-color:props.color;
-}
+
+
 `;
 export const Percentage = styled.span`
 color: gray;

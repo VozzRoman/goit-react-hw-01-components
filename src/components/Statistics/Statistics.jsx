@@ -2,7 +2,7 @@ import { StatisticCard } from "components/StatisticCard/StatisticCard";
 import {ListStatistics, HeadTitle, StatList} from './Statistics.styled';
 export function Statistics({title, stats}) {
 	return (
-		<div>
+		
 			<ListStatistics>
 				<HeadTitle>{title}</HeadTitle>
 
@@ -16,6 +16,6 @@ export function Statistics({title, stats}) {
   				</StatList>
 			</ListStatistics>
 
-		</div>
+		
 	)
 } 

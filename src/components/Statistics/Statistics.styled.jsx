@@ -1,8 +1,10 @@
 import styled from "@emotion/styled";
 
 export const ListStatistics = styled.section`
+	width:350px;
 	display: block;
 	text-align: center;
+	
 	
 ;`
 export const HeadTitle = styled.h2`
