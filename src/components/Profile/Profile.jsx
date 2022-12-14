@@ -1,32 +1,32 @@
-import css from './Profile.module.css';
+// import css from './Profile.module.css';
+import { Card, Description, Stats, Avatar, Name, Tag, Location, Label, Quantity } from './Profile.styled';
 export function Profile({username, tag, location, avatar, stats}) {
     return (
-<div className={css.profile}>
-  <div className={css.description}>
-    <img
+<Card>
+  <Description>
+    <Avatar
       src={avatar}
       alt={username}
-      className={css.avatar}
     />
-          <p className={css.name}>{username}</p>
-          <p className={css.tag}>{tag}</p>
-          <p className={css.location}>{location }</p>
-  </div>
+          <Name>{username}</Name>
+          <Tag>{tag}</Tag>
+          <Location>{location }</Location>
+  </Description>
 
-  <ul className={css.stats}>
+  <Stats>
     <li>
-            <span className={css.label}>Followers</span>
-	<span className={css.quantity}>{stats.followers}</span>
+            <Label>Followers</Label>
+	<Quantity>{stats.followers}</Quantity>
     </li>
     <li>
-            <span className={css.label}>Views</span>
-      <span className={css.quantity}>{stats.views}</span>
+            <Label>Views</Label>
+      <Quantity>{stats.views}</Quantity>
     </li>
     <li>
-      <span className={css.label}>Likes</span>
-            <span className={css.quantity}>{stats.likes}</span>
+      <Label>Likes</Label>
+            <Quantity>{stats.likes}</Quantity>
     </li>
-  </ul>
-</div>
+  </Stats>
+</Card>
     )
 }
