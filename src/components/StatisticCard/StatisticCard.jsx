@@ -1,11 +1,11 @@
-
+import { Item } from "./StatisticCard.styled";
 
 export function StatisticCard(props) {
 	const { label, percent } = props;
 	return (
-	<li className="item">
+	<Item>
 			<span className="label">{label}</span>
 			<span className="percentage">{percent}</span>
-    </li>
+    </Item>
 	)
 }

@@ -1,21 +1,20 @@
 import { StatisticCard } from "components/StatisticCard/StatisticCard";
+import {ListStatistics, HeadTitle, StatList} from './Statistics.styled';
 export function Statistics({title, stats}) {
 	return (
 		<div>
-			<section className="statistics">
-				<h2 class="title">{title}</h2>
+			<ListStatistics>
+				<HeadTitle>{title}</HeadTitle>
 
-				<ul className="stat-list">	
+				<StatList>	
 					{stats.map(stat => (
 						<StatisticCard key={stat.id}
-						idNumber={stat.id}
 						label={stat.label}
 						percent={stat.percentage}
 					/>
 					))}
-				
-  </ul>
-</section>
+  				</StatList>
+			</ListStatistics>
 
 		</div>
 	)
