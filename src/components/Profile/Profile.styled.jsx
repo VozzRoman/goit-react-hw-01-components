@@ -7,6 +7,7 @@ export const Card = styled.div`
 	 align-items: center;
 	 justify-content: center;
 	 text-align: center;
+	 padding-bottom: 60px;
 `;
 
 export const Description = styled.div`
