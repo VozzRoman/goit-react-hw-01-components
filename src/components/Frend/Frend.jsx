@@ -1,10 +1,14 @@
 
-export function Friend() {
+import { Item, Status, AvatorPic, Name } from "./Frend.styled";
+
+
+export function Friend(props) {
+	const { avatar, name, isOnline, type } = props;
 	return (
-		<li className="item">
-  			<span className="status"></span>
-  			<img className="avatar" src="" alt="User avatar" width="48" />
-  			<p className="name"></p>
-		</li>
+		<Item>
+			<Status type={type}>{isOnline}</Status>
+  			<AvatorPic src={avatar} alt={name} width="48" />
+			<Name>{name}</Name>
+		</Item>
 	)
 }
