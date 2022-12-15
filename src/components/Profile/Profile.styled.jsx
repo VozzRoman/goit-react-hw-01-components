@@ -7,7 +7,13 @@ export const Card = styled.div`
 	 align-items: center;
 	 justify-content: center;
 	 text-align: center;
-	 padding-bottom: 60px;
+	 margin-bottom: 60px;
+	  border-top: 2px solid rgb(236, 236, 236);
+	 border-left: 2px solid rgb(236, 236, 236);
+	 border-right: 2px solid rgb(236, 236, 236);
+	 border-top-left-radius: 8px;
+	 border-top-right-radius: 8px;
+	 box-shadow: 1px 2px 3px 2px rgb(206, 206, 206);
 `;
 
 export const Description = styled.div`
@@ -17,12 +23,7 @@ export const Description = styled.div`
 	align-items: center;
 	width: 100%;
 	padding: 30px 0;
-	 border-top: 2px solid rgb(236, 236, 236);
-	 border-left: 2px solid rgb(236, 236, 236);
-	 border-right: 2px solid rgb(236, 236, 236);
-	 border-top-left-radius: 8px;
-	 border-top-right-radius: 8px;
-	 box-shadow: 1px 2px 3px 2px rgb(206, 206, 206);
+	
 `;
 
 export const Stats = styled.ul`

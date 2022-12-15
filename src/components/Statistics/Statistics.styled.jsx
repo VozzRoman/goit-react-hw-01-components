@@ -4,6 +4,10 @@ export const ListStatistics = styled.section`
 	width:350px;
 	display: block;
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 60px;
+	
 	
 	
 ;`
