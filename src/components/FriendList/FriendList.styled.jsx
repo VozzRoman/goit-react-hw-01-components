@@ -7,4 +7,5 @@ margin-right: auto;
 display: flex;
 flex-direction: column;
 align-items: center;
+magrin-bottom: 40px;
 `;

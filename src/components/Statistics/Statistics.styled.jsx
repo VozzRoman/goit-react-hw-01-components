@@ -6,10 +6,7 @@ export const ListStatistics = styled.section`
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 60px;
-	
-	
-	
+	margin-bottom: 60px;	
 ;`
 export const HeadTitle = styled.h2`
 	padding: 30px 0;
