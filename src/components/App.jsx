@@ -20,7 +20,5 @@ export const App = () => {
 		  <FrendList friends={friends} />
 	  </div>
 
-    
-   
   );
 };

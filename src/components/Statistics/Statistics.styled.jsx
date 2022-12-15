@@ -19,3 +19,26 @@ export const HeadTitle = styled.h2`
 export const StatList = styled.ul`
 	display: flex;
 `;
+
+export const Item = styled.li`
+flex: 0 25%;
+display: flex;
+padding: 10px;
+flex-direction: column;
+border: 1px solid gray;
+background-color:${(props) => {
+return props.color;
+}}
+`;
+
+export const Label = styled.span`
+font-size: 19px;
+font-weight: 600;
+margin-bottom: 10px;
+
+
+`;
+export const Percentage = styled.span`
+color: gray;
+
+`;
