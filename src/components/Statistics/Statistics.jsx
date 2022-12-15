@@ -1,21 +1,19 @@
-import { StatisticCard } from "components/StatisticCard/StatisticCard";
-import {ListStatistics, HeadTitle, StatList} from './Statistics.styled';
+
+import { ListStatistics, HeadTitle, StatList, Item, Label, Percentage } from './Statistics.styled';
+import { getRandomColor } from "./rendomColor";
 export function Statistics({title, stats}) {
 	return (
 		
 			<ListStatistics>
-				<HeadTitle>{title}</HeadTitle>
-
+			{title === 'Upload stats' ? <HeadTitle>{title}</HeadTitle> : null}
 				<StatList>	
 					{stats.map(stat => (
-						<StatisticCard key={stat.id}
-						label={stat.label}
-						percent={stat.percentage}
-					/>
+					<Item color={`${getRandomColor()}`}>
+			<Label >{stat.label}</Label>
+			<Percentage>{stat.percent}</Percentage>
+    </Item>
 					))}
   				</StatList>
 			</ListStatistics>
-
-		
 	)
 } 
