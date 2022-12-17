@@ -1,5 +1,6 @@
 import { Transaction } from "components/Transation/Transaction"
 import { TrasactionTable } from "./TransactionHistory.styled"
+import PropTypes from 'prop-types'; 
 export function TransactionHistory({ items }) {
 
 	
@@ -29,4 +30,14 @@ export function TransactionHistory({ items }) {
   </tbody>
 	</TrasactionTable>
 	)
+}
+
+TransactionHistory.propTypes = {
+	items: PropTypes.arrayOf(
+		PropTypes.exact({
+	id: PropTypes.string.isRequired,
+    type: PropTypes.string.isRequired,
+    amount: PropTypes.string.isRequired,
+    currency: PropTypes.string.isRequired,
+		}))
 }

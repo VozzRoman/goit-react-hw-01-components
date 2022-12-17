@@ -10,3 +10,11 @@ export function Transaction(props) {
     </Tr>
 	)
 }
+
+Transaction.propType = {
+	id: PropTypes.string.isRequired,
+    type: PropTypes.string.isRequired,
+    amount: PropTypes.string.isRequired,
+	currency: PropTypes.string.isRequired,
+	bacColor: PropTypes.string.isRequired,
+}
