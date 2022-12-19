@@ -1,5 +1,5 @@
 import { Tr } from "./Transaction.styled"
-
+import PropTypes from 'prop-types';
 export function Transaction(props) {
 	const { type, amount, currency ,bacColor} = props
 	return (
